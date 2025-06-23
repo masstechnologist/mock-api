@@ -13,14 +13,14 @@ app.get("/domains/renewals", (req, res) => {
   const daysParam = req.query.days;
   const allDomains = [
     {
-      domain: "myexampledomain.com",
-      expires_on: "2025-08-15",
-      days_left: 53,
-    },
-    {
       domain: "clientsite.net",
       expires_on: "2025-09-02",
       days_left: 71,
+    },
+    {
+      domain: "myexampledomain.com",
+      expires_on: "2025-08-15",
+      days_left: 53,
     },
     {
       domain: "demosite.net",
