@@ -23,6 +23,11 @@ app.get("/domains/renewals", (req, res) => {
       days_left: 71,
     },
     {
+      domain: "demosite.net",
+      expires_on: "2025-07-02",
+      days_left: 11,
+    },
+    {
       domain: "serversite.net",
       expires_on: "2026-09-02",
       days_left: 436,
